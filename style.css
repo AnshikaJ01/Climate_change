@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 0px;
+    padding: 0px;
+    font: poppins;
+    background-color:aliceblue;
+  }
+  #main{
+  width: 100%;
+  height: 10vh;
+  position: relative;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(rgb(85, 85, 206),lightblue,lightgreen);
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.02);
+    z-index: 1;
+  }
+  .logo img{
+  height:45px;
+  border-radius: 50%;
+  }
+  .menu{
+    list-style: none;
+    display: flex;
+  }
+  .menu li a{
+    height:40px; 
+    line-height:43px;
+    margin:3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size:0.8em;
+    text-transform: uppercase;
+    font-weight:500px;
+    letter-spacing:1px;
+    color: black;
+  }
+  a{
+    text-decoration: none;
+  }
+  .hey{
+    color:green;
+    font-weight: 500; 
+    font-size: 1.2em;
+    border-bottom: 2px  solid #39bfbd;
+  }
+  .menu li a:hover{
+    background-color:white;
+    color: darkcyan;
+    box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+  }
+.home{
+    display: flex;
+    align-items: center;
+}
+.home img{
+    
+    margin:50px;
+    width: 40%;
+    height: 35%;
+    border: 5px solid green;
+    box-shadow: 2px 3px 4px 1px gainsboro;
+}
+.home para{
+   
+    margin: 40px;
+}
+.home p{
+    font-size:x-large;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: cursive;
+   
+}
+.home h1{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+    color: green;
+}
+
+
+.containerCauses {
+  position: relative;
+  max-width: 1300px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.containerCauses .contentCauses {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding:265px;
+}
+  
+  #footer{
+    min-height: 500px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container{
+    width: 1600px;
+    margin: auto;
+  }
+  
+  .subcontainer{
+    width: 85%;
+    margin: auto;
+  }
+  
+  .footer-wrapper{  
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
+    line-height: 2;
+  }
+  
+  .footer-box h1{
+    font-size: 3rem;
+  }
+  
+  .footer-box address{
+    color: gray;
+    font-style: normal;
+    line-height: 2;
+  }
+  
+  .info{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+  }
+  
+  s
+  
+  .info:hover::after {
+      width: 100%;
+      transition: width .3s;
+  }
+  
+  .info::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 2px;
+      background:white;
+      transition: width .3s;
+  }
+  
+  .info a{
+    color: gray;
+    text-decoration: none;
+  }
+  
+  .info span{
+    color: white;
+  }
+  
+  
+  .brand{
+    color: white;
+    margin-top: -25px;
+  }
+  
+  .rights{
+    padding-top: 50px;
+    color: gray;
+  }
+  
+  .fb1{
+    width: 300px;
+  }
+  
+  .fb2, .fb3, .fb4, .fb5{
+    width: fit-content;
+    line-height: 2;
+  }
+  
+  .social-media{
+    display: flex;
+    gap: 20px;
+  }
+  
+  .social-media a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-out;
+  }
+  
+  @media(max-width:1600px){
+    .container{
+      width: 100%;
+    }
+  }
+  
+  @media(max-width:1024px){
+    .footer-wrapper{
+      padding: 20px 0;
+      flex-direction: column;
+    }
+  
+    .fb1{
+      width: 100%;
+    }  
+  
+    .rights{
+      padding-bottom: 25px;
+    }
+  }
+  .containerSol {
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: auto;
+  }
+  
+  .containerSol .contentSol {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 100%;
+    padding: 245px;
+  }
+  .containerSol img{
+      height: 700px;
+    
+  }
+ 
